@@ -8,5 +8,5 @@ gitConfig:
     proxySecretVersionName: 'projects/96774389270/secrets/giangnguyen-secret/versions/latest'
 source:
   gitSource:
-    url: 'https://github.com/elweb9858/golang-sample'
+    url: 'https://github.com/GiangN/gcp-test'
     revision: 'main'
