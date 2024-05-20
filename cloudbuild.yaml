@@ -1,0 +1,12 @@
+steps:
+- name: 'busybox'
+  args: ['sleep', '10']
+options:
+  workerPool: 'projects/git-proxy-bug-bash4/locations/asia-eas1/workerPools/giangnguyen-git-proxy-bugbash'
+gitConfig:
+  http:
+    proxySecretVersionName: 'projects/96774389270/secrets/giangnguyen-secret/versions/latest'
+source:
+  gitSource:
+    url: 'https://github.com/elweb9858/golang-sample'
+    revision: 'main'
